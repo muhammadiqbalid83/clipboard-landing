@@ -103,3 +103,105 @@ h6 {
   border-radius: 50px;
   margin-left: 10px;
 }
+
+/* features */
+.features {
+  width: 100%;
+}
+
+.features-heading {
+  text-align: center;
+}
+
+.features-heading p {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: var(--grayish-blue);
+}
+
+.features-bottom {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.bottom-features div {
+  margin-top: 40px;
+}
+
+.bottom-features p {
+  width: 300px;
+  font-size: 14px;
+  color: var(--grayish-blue);
+}
+
+.bottom-features h2 {
+  color: var(--dark-grayish-blue);
+}
+
+/* devices */
+
+.devices {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.devices h1 {
+  color: var(--dark-grayish-blue);
+}
+
+.devices p {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 25px;
+  color: var(--grayish-blue);
+}
+
+.devices img {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* workflow */
+.workflow {
+  text-align: center;
+  color: var(--dark-grayish-blue);
+}
+
+.workflow h1 {
+  margin-top: 20px;
+}
+
+.workflow p {
+  margin-top: 20px;
+  color: var(--grayish-blue);
+}
+
+.workflow-features {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.workflow-features .list {
+  margin-top: 100px;
+}
+
+.workflow-features h2 {
+  margin-top: 30px;
+}
+
+.workflow-features div {
+  margin-top: 80px;
+}
+
+.workflow-features div img {
+  margin: 0 auto;
+}
+
+/* company */
